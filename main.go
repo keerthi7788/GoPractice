@@ -18,4 +18,9 @@ func main() {
 	fmt.Println("After swapping:")
 	fmt.Println("a:", a)
 	fmt.Println("b:", b)
+	goprogram.PositiveNegative(5)
+	fact := goprogram.Factorial(4)
+	fmt.Println("Factorial of 4 is:", fact)
+	revNum := goprogram.ReverseNumbers(6753)
+	fmt.Println("Reverse of 1234 is:", revNum)
 }
